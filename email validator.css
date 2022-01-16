@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+body {
+  background-color: wheat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.conatiner {
+  width: 30%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px black;
+
+}
+.header {
+  width: 100%;
+  background-color: rgb(211, 161, 68);
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 5px;
+
+}
+.header h2{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form{
+
+    padding: 20px;
+}
+.form-controler {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.form-controler label{
+    font-size: 25px;
+}
+.form-controler input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+.form-controler i {
+    position: absolute;
+    top: 49%;
+    right: 1%;
+    visibility: hidden;
+}
+.form button{
+   background-color: chartreuse;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+
+}
+.form button:hover{
+    background-color: rgb(15, 153, 218);
+}
+.form-controler.success input{
+    border-color: green;
+}
+.form-controler.error input{
+    border-color: red;
+}
+.form-controler.success i.fa-check-circle{
+    color: green;
+    visibility: visible;
+}
+.form-controler.error i.fa-exclamation-circle{
+    color: red;
+    visibility: visible;
+}
+.form-controler small{
+ color: red;
+ visibility: hidden;
+}
+.form-controler.error small{
+visibility: visible;
+color: red;
+}
+
+
+
+/* .form-controler i {
+    display: none;
+} */
+
+/* .fa-exclamation-circle{
+    color: red;
+    visibility: hidden;
+}
+.fa-check-circle{
+    color: green;
+    visibility: hidden;
+} */
+ /* .form-controler small{
+     color: red;
+     visibility: hidden;
+ }
+.form-controler .error small{
+    visibility: visible;
+    color: red;
+}
+.form-controler .fa-exclamation-circle{
+    color: red;
+    visibility: hidden;
+}
+.form-controler .fa-check-circle{
+color: green;
+visibility: hidden;
+
+} */
+/* .form-controler .fa-check-circle .succes{
+    color: green;
+    visibility: visible;
+} */
