@@ -8,7 +8,7 @@ form.addEventListener("submit", (e) => {
   e.preventDefault();
   validator();
 });
-
+//  validator
 function validator() {
   let usernamevalue = username.value.trim();
   let emailvalue = email.value.trim();
